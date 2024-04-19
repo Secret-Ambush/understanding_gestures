@@ -49,9 +49,3 @@ Next, we find contours of the binary image obtained, look for the largest contou
 Using points from the largest contour we determine center of the palm by finding the largest circle inscribed inside the contour and then the dimension of palm. Using the center of palm as reference, we eliminate all points from the convex hull which do not seem to be part of hand. Also, nearby convex hull points are eliminated so that we are left with exactly only those many points as the number of fingers stretched out.
 
 Using the positions of fingers and palm dimensions, we model our hand.
-
-Then we compare the model with a dictionary of Gestures defined in GestureAPI.py to determine presence of gestures.
-
-**Full explanation with screenshots is provided in /docs/Documentation.pdf**
-
-For any queries, contact: mahaveer.verma1@gmail.com
